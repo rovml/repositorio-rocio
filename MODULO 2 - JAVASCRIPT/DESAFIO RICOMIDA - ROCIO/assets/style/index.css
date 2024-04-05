@@ -1,0 +1,59 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+}
+.navbar{
+    background-color: #373A3C;
+    opacity: 100%;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+.navbar-brand{
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #FFFFFF;
+}
+#navbarNavAltMarkup .nav-link {
+    display: flex;
+    color: #FFFFFF;
+}
+.space{
+    height: 10px;
+}
+
+#carouselExample img{
+
+}
+
+
+.col{
+    align-items: flex-start;
+}
+.recetas{
+    gap: 4em;
+    margin-bottom: 4em;
+    align-items: center;
+}
+
+.padre-receta{
+    width: 1em;
+    margin: 0 auto;
+}
+.newsletter{
+    background-color: #DC3545;
+    padding: 2em;
+    color: #FFFFFF;
+
+}
+footer{
+    background-color: #373A3C;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+

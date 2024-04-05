@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.navbar{
+  background-color: #28A745;  
+}
+.navbar-logo img{
+    width: 6em;
+    margin: 1em;
+}
+
+.contenedores-productos{
+    display: grid;
+    justify-items: center;
+    gap: 3em; 
+    margin-top: 2em;
+}
+.direccion{
+    color: #707070;
+    margin-top: 1em;
+}
+.card-body1{
+    text-align: right;
+    margin: 1em;
+}
+.card-link{
+    text-decoration: none;
+}
+.icon-text p{
+    padding-left: 5px;
+}
+.card-link1{
+    color: #28A745;
+    text-decoration:none ;
+    font-weight: bolder;
+    font-size: larger;
+}
+.list-group-item{
+    text-align: right;
+}
+.mas-info{
+    display: grid;
+    background-color: #28A745;
+    padding: 2em;
+    color:#FFFFFF;
+    font-size: medium;
+}
+.logoblack img{
+    width: 7em;
+   margin-top: 2em;
+}
+.logoblack{
+    color: #707070;
+}
