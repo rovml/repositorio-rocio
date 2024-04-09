@@ -1,8 +1,34 @@
-var enviar = document.getElementById("enviar")
-var enviar = document.getElementById("agregar")
+$(document).ready(function() {
+    $("#ingredientes").dblclick(function() {
+      $(this).css("color", "red");
+    });
+  });
 
-$(document).ready(function(){
-    $("enviar").click(function(){
-    alert("el correo ha sido enviado exitosamente");
-     });
- });
+  $(document).ready(function() {
+    $("#preparacion").dblclick(function() {
+      $(this).css("color", "red");
+    });
+  });
+
+  $(document).ready(function() {
+    $("#enviar").click(function() {
+      alert("El correo fue enviado correctamente...");
+    });
+  });
+
+  $(document).ready(function() {
+    $(".card-1").click(function() {
+     $(".card-1").toggle()
+    });
+  });
+  $(document).ready(function() {
+    $(".card-2").click(function() {
+     $(".card-2").toggle()
+    });
+  });
+
+  $(document).ready(function() {
+    $(".card-3").click(function() {
+     $(".card-3").toggle()
+    });
+  });

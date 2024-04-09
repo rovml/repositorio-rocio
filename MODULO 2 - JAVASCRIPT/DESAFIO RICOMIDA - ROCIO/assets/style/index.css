@@ -11,42 +11,42 @@ body{
     padding-right: 6em;
 }
 .navbar-brand{
-        font-family: "Lobster", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        color: #FFFFFF;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+     font-style: normal;
+     color: #FFFFFF;
 }
 #navbarNavAltMarkup .nav-link {
     display: flex;
     color: #FFFFFF;
 }
+.carrusel{
+    display: none;
+}
 .space{
+    margin: 2rem;
+}
+hr{
     height: 10px;
 }
-
-#carouselExample img{
-
+.sin-marcador{
+    list-style-type: none;
 }
-
-
-.col{
-    align-items: flex-start;
-}
-.recetas{
+.relative{
     gap: 4em;
     margin-bottom: 4em;
     align-items: center;
 }
-
-.padre-receta{
-    width: 1em;
-    margin: 0 auto;
-}
 .newsletter{
     background-color: #DC3545;
-    padding: 2em;
+    padding: 3em;
     color: #FFFFFF;
-
+}
+.ricomida-t{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
 }
 footer{
     background-color: #373A3C;
@@ -54,6 +54,21 @@ footer{
     font-weight: 400;
     font-style: normal;
     color: #FFFFFF;
+    text-align: center;
 }
 
+@media (min-width: 1000px){
 
+    .carrusel {
+        display: block;
+        justify-content: center;
+    }
+    .carousel-item img{
+    margin: 0px 20px;
+    margin-left:4em;
+}
+.card-carrusel img{
+     max-width: 300px;
+     margin: auto;
+}
+}
